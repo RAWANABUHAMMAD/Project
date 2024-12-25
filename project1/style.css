@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", serif;
+    box-sizing: border-box;
+    margin:0 ;
+    padding:0 ;
+    scroll-behavior: smooth;}
+
+header{
+    background-color:rgb(245, 239, 231);
+    width:100%;
+    position: fixed;
+    z-index:999;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:10px 220px;
+    font-weight: 700px;
+}
+
+    .logo{
+     width:60px;
+     height:60px;
+     border-radius:200px;}
+    
+    .navigation a{
+      text-transform: uppercase ;  
+      padding-left:30px ;
+      text-decoration: none;
+      color:rgb(62, 88, 121);
+      font-weight: 700px;}
+
+    .navigation a:hover{
+    color:rgb(216, 196, 182);
+    }
+    .contact{
+    text-transform: uppercase ;  
+     padding-left:30px ;
+    text-decoration: none;
+    color:rgb(62, 88, 121);
+    font-weight: 700px;} 
+    
+    .contact:hover{
+        color:rgb(216, 196, 182) ;
+    }
+    section{
+        padding:100px 200px ;
+    }
+
+    .main{
+        width:100% ;
+        min-height:100vh;
+        display:flex ;
+        align-items: center;
+        background-color:rgb(245, 239, 231);
+        background-image: url(image/background.png);
+        background-repeat: no-repeat;
+        background-position:right ;
+        background-size:contain;
+         background-attachment:fixed;
+    }
+    
+        
+     .main h2{
+        color:rgb(33, 53, 85);
+        font-weight: 600;
+        font-size: 3em;
+     }  
+        
+    .main h3{
+        color:rgb(62, 88, 121);
+        font-size:2em ;
+        font-weight: 400;
+        margin-top: 20px; 
+        margin-bottom:20px ;
+
+    }
+
+     .main-btn{
+        color:rgb(245, 239, 231);
+        background-color:rgb(62, 88, 121); 
+        text-decoration: none;
+        font-size: 1.5em; 
+        display:inline-block ;
+        font-weight:500px ;
+        padding:10px ;
+        letter-spacing: 1px;
+        border-radius:15px ;
+        transition:0.5s ease;
+         }
+        
+    .main-btn:hover{
+        background-color:rgb(33, 53, 85) ;
+        transform: scale(1.1);
+    }
+        
+    .Discover{
+        color:rgb(33, 53, 85);
+        background-color:rgb(216, 196, 182)  ;
+         width:100% ;}
+        
+
+    
+     .Discover h2{
+        font-weight:500px ;
+        font-size:2em;
+        margin: 15px;
+        text-transform: uppercase ;}
+    
+
+     .Discover p{
+        font-size:1.1em;
+        font-weight: 300;
+        text-transform: capitalize;
+        text-align: left;
+        letter-spacing: 1px;}
+
+
+
+    .cards{
+        color:rgb(33, 53, 85);
+        background-color:rgb(216, 196, 182)  ;
+         width:100% ;}
+
+    .title{
+        display: flex;
+        justify-content: center;
+        font-weight:500px ;
+        font-size:2em;
+        text-transform: uppercase;
+        margin-bottom:20px;}
+    
+
+    .content{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        gap: 20px;
+         justify-content: center; 
+        
+    }
+    .card{
+        background-color:rgb(62, 88, 121);
+        padding:25px;
+        margin:15px;
+        border-radius:20px;
+         align-items: center;
+        gap:10px ;
+        transition:0.5s ease;
+         box-shadow: 5px 5px 15px rgba(33, 53, 85, 0.967);}
+        
+    .card:hover{
+         transform: scale(1.1);}
+        
+    .card h3{
+        color:rgb(216, 196, 182); 
+        font-size:2em;
+        font-weight:500px;
+        text-transform: capitalize;
+        margin-bottom:15px;}
+    
+    .card p{
+        color:rgb(33, 53, 85);
+        font-size:1.2em;
+        font-weight:300px;
+        text-transform: capitalize;
+        margin-bottom:15px;}
+
+    
+     .line-container {
+         position: relative;
+         width: 2px;
+        height:600px;
+         background-color:rgb(33, 53, 85);
+        }
+    .circle {
+        position: absolute;
+         top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+         width: 20px;
+         height: 20px;
+         border: 2px solid  rgb(33, 53, 85);
+        border-radius: 50%;
+         background-color:rgb(245, 239, 231);}
+
+    .jobs{
+     color:rgb(33, 53, 85);
+     background-color:rgb(62, 88, 121);
+     width:100% ;
+     display: flex;
+    justify-content: center;
+    height: 100vh;
+     margin: 0;}
+     
+     
+     .work{
+     color:rgb(216, 196, 182);
+     font-size: 1.2;
+     font-weight:500px;
+     padding:20px;
+     margin:30px;}
+        
+        
+     .work span{
+    font-weight: bold;
+    font-size:2em;
+     }
+
+    
+    .project{
+    color:rgb(33, 53, 85);
+     background-color:rgb(216, 196, 182) ;
+     width: 100%;}
+     
+     
+     .project1{
+        color:rgb(33, 53, 85);
+        font-size:1.2em;
+        font-weight:300px;
+        text-transform: capitalize;
+        margin-bottom:15px;
+         justify-items: center;
+        transition:0.7s ease;}
+    
+    .project1:hover{
+         transform: scale(1.1);
+        border: 10px sold  rgb(216, 196, 182) ;}
+
+
+    .Information{
+    background-color:rgb(245, 239, 231);
+    color:rgb(33, 53, 85);
+    text-align:left;}
+
+
+
+          
+
+     .footer{
+        background-color:rgb(62, 88, 121);
+        color:rgb(216, 196, 182);
+        padding:1em;
+        display:flex;
+        justify-content: space-between;
+     }
+
+     .footer-title{
+        font-weight: 500px;
+        font-size:1.2em;}
+     
+    
+    .footer social-icon a{
+        font-size:1.5em;
+    }
+
+    
+      
